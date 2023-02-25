@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+}
+.navbar-item{
+    position: absolute;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+}
+.account{
+    position: absolute;
+    display: inline-block;
+    right: 0;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    /* margin-top: 10px; */
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown:hover .products {color: red}
+.products:hover{
+
+}
+
+.account .login{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: grey;
+    text-decoration: none;
+    font-size: 17px;
+    margin-top: 5px;
+}
+li{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+li:hover{
+    cursor: pointer;
+    color: red;
+}
+.account .login:hover{
+    cursor: pointer;
+    color: red;
+}
+.login-form{
+    margin: 35px;
+}
+.login-btn{
+    margin-top: 20px;
+}
+.product-card{
+    /* margin-left: 5px; */
+}
+.card-img-top{
+    width: 223px;
+    padding-left: 60px;
+}
+.card-img-top:hover{
+    opacity: 0.3;
+    cursor: pointer;
+}
+.iPhone{
+    margin-top: 40px;
+}
+.applewatch{
+    margin-top: 60px;
+}
+.information-shop
+{
+    margin-top: 40px;
+    height: 200px;
+}
+.fa-solid{
+    margin-bottom: 30px;
+    color: grey
+}
+.fa-solid:hover{
+    color: red;
+    cursor: pointer;
+}
+.info-item{
+    margin-top: 50px;
+}
+footer {
+    background-color:#ff5050;
+    padding: 20px;
+}
+footer p {
+    color: #999;
+    font-size: 16px;
+    margin: 0;
+    display: inline;
+    margin-left: 30px;
+  }
+  .btn{
+    background-color: #ff5050;
+  }
